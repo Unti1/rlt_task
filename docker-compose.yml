@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: rlt_descriptor_bot
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: nohup poetry run python main.py &
