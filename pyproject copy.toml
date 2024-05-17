@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "taskrlt"
+version = "0.1.0"
+description = ""
+authors = ["Unti1 <kostyuchenko.work@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+motor = "^3.3.2"
+aiogram = "^3.4.1"
+pytest = "^8.0.2"
+anyio = "^4.3.0"
+pytest-asyncio = "^0.23.5"
+pytest-tornasync = "^0.6.0.post2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
